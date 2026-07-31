@@ -162,9 +162,11 @@ img { max-width: 100%; display: block; }
   border-bottom: 1px solid var(--card-border);
   display: flex;
   align-items: center;
-  padding: 0 1.5rem;
+  padding: 0 24px;
   z-index: 100;
   gap: 1.5rem;
+  justify-content: space-between;
+  width: 100%;
 }
 [data-theme="light"] .navbar {
   background: rgba(255, 255, 255, 0.8);
@@ -227,7 +229,7 @@ img { max-width: 100%; display: block; }
 .nav-actions {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 16px;
 }
 .nav-btn {
   width: 42px;
